@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Projeto Victor">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Victor">	
+	<link rel="icon" href="./assets/img/favicon.svg" />
+	<title>Portfólio</title>
+</head>
+<body>
+
+	<!-- Header -->
+	<header>
+
+		<div id="header_content">
+
+		</div id="titulo">
+		Universo
+		</div>
+
+		<div id="menu">
+			<nav>
+				<!-- Marcadores Não Ordenados-->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">Sobre</a></li>
+					<li><a href="#contact">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+
+	<!-- Main -->
+	<main>
+
+		<section id="home">
+
+			<article id="home_texto">
+
+				<h4>Bem Vindo Ao Novo Universo</h4>
+				<h1>Mundos Diferentes para pessoas diferentes</h1>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil aspernatur quam esse dolores ex quas dignissimos accusamus, debitis ipsum natus unde adipisci ullam nam facere ad quae consequuntur. Expedita, sapiente?</p>
+				<a
+					href="https://github.com/VictorPestana"
+					target="_blank"
+					rel="noopener"
+				>
+					Explorar
+					
+				</a>
+			</article>
+
+			<article id="home_img">
+				<img 
+				src="./assets/img/astronauta.svg" alt="Astronauta"
+				alt="Capacete de Astronauta Animado"
+				>
+			</article>
+			
+		</section>
+
+		<section id="about">
+				<img 
+				src="./assets/img/user_01.svg" alt="Foto de Usuario"
+				alt="Foto de Usuario"
+				>
+		
+			<article id="about_text">
+				<h1>Sobre Mim?</h1>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nihil officia sed eveniet laboriosam corporis, quos iste fugit totam ratione quas cum amet, exercitationem beatae iure corrupti nulla officiis debitis?</p>
+
+				<div id="about_github">
+					<a
+						href="https://github.com/VictorPestana"
+						target="_blank"
+						rel="noopener">
+						GitHub
+					</a>
+					<p>200 Seguidores</p>
+					<p>20 Repositorios</p>
+			</article>
+
+		</section>
+
+		<section id="contact">
+
+			<h4>Contate-me</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatum, cupiditate vero similique, sequi sed necessitatibus ratione id, non praesentium eum minus. Perferendis facere, autem excepturi molestiae dignissimos aut quasi?</p>
+
+			<div id="icones_redes_sociais">
+				<a href="" title="Social Media Link">
+					<a href="https://www.linkedin.com/in/victor-pestana-a1aa15269/" target="_blank" rel="noopener">
+						<img src="./assets/img/linkedin.svg" alt="LinkedIn">
+					</a>
+					<a href="https://github.com/VictorPestana" target="_blank" rel="noopener">
+						<img src="./assets/img/github.svg" alt="GitHub">
+					</a>
+					<img src="./assets/img/instagram.svg" alt="Instagram">
+				</a>
+			</div>
+
+			<form id="contatoForm" onsubmit="redirecionar(event)">
+				<label for="nome">Nome</label>
+				<input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+			
+				<label for="email">E-mail</label>
+				<input id="email" type="email" name="email" placeholder="Digite seu email" required>
+			
+				<label for="assunto">Assunto</label>
+				<input id="assunto" type="text" name="assunto" placeholder="Digite seu assunto" required>
+			
+				<label for="mensagem">Mensagem</label>
+				<textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+			
+				<button type="submit">Enviar</button>
+			</form>
+			
+			<script>
+				function redirecionar(event) {
+					event.preventDefault(); 
+					window.location.href = "sucesso.html"; 
+				}
+			</script>
+			
+
+		</section>
+
+		<section>
+
+		</section>
+
+	</main>
+
+	
+
+	<!-- Footer -->
+	<footer>
+		Feito com 🧡 por Victor - 2025
+	</footer>
+</body>
+</html>
