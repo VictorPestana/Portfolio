@@ -8,8 +8,7 @@ async function getApiGithub() {
         const perfil = await response.json();
 
         let conteudo = `
-            <!-- Seção sobre -->
-            <section id="about" class="flex sobre_container">
+       
                 <!-- Imagem da Seção Sobre -->
                 <img src="${perfil.avatar_url}" alt="Foto do Perfil do Github">
                 <!-- Texto da Seção Sobre -->
@@ -25,7 +24,6 @@ async function getApiGithub() {
                         <p>${perfil.public_repos} Repositórios</p>
                     </div>
                 </article>
-            </section>
         `;
 
         if (sobre) {
