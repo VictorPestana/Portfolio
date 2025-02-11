@@ -3,151 +3,153 @@
 
 <head>
 
-	<!-- Fontes do Google -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-	<!-- Fonte do Google - Poppins -->
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Projeto Victor">
-	<meta name="keywords" content="HTML, CSS, JavaScript">
-	<meta name="author" content="Victor">
-	<link rel="icon" href="./assets/img/favicon.svg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="Victor Pestana">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" href="./assets/img/favicon.svg" />
 
-	<link rel="stylesheet" href="./assets/css/style.css">
+    <!--  Link para a Folha de Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-	<title>Portfólio</title>
+    <title>Portfólio do Victor</title>
 </head>
 
 <body>
 
-	<!-- Header -->
-	<header class="flex menu_container">
-		<div id="header_content" class="menu_content">
-			<div id="titulo">
-				<a href="#">Universo</a>
-			</div>
-		</div>
+    <!-- Cabeçalho da Página -->
+    <header class="flex menu_container">
 
-		<div id="menu" class="flex">
-			<nav>
-				<!-- Marcadores Não Ordenados-->
-				<ul class="flex menu_list">
-					<li><a href="#">Home</a></li>
-					<li><a href="#about">Sobre</a></li>
-					<li><a href="#contact">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
+        <div id="header_content" class="menu_content">
 
-	</header>
+            <!-- Título do Cabeçalho -->
+            <div id="titulo">
+                <a href="#">Universo</a>
+            </div>
 
-  <!-- Seção Principal da Página -->
-  <main>
+            <!-- Menu -->
+            <div id="menu" class="flex">
+                <nav>
+                    <!-- Marcadores não Ordenados para criar as opções do menu -->
+                    <ul class="flex menu_list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-	<!-- Seção home -->
-	<section id="home" class="flex home_container">
+    </header>
 
-		<!-- Texto da Seção Home -->
-		<article id="home_texto" class="flex home_content">
+    <!-- Seção Principal da Página -->
+    <main>
 
-			<h4>Bem-vindo ao Novo Universo</h4>
-			<h1>Mundos diferentes para pessoas diferentes</h1>
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ipsum eum sapiente maiores adipisci
-				aperiam sint dignissimos molestias voluptas expedita doloribus consequatur saepe maxime, tempore
-				modi eligendi, eius, eos itaque.</p>
-			<a 
-				href="https://github.com/victorpestana" 
-				target="_blank"
-				class="botao"
-			>
-				Explorar
-			</a>
+        <!-- Seção home -->
+        <section id="home" class="flex home_container">
 
-		</article>
+            <!-- Texto da Seção Home -->
+            <article id="home_texto" class="flex home_content">
 
-		<!-- Imagem da Seção Home -->
-		<article id="home_imagem" class="flex home_content">
-			<img src="./assets/img/astronauta.svg" alt="Capacete de Astronauta Animado">
-		</article>
+                <h4>Bem-vindo ao Novo Universo</h4>
+                <h1>Mundos diferentes para pessoas diferentes</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ipsum eum sapiente maiores adipisci
+                    aperiam sint dignissimos molestias voluptas expedita doloribus consequatur saepe maxime, tempore
+                    modi eligendi, eius, eos itaque.</p>
+                <a href="https://github.com/VictorPestana" target="_blank" class="botao">
+                    Explorar
+                </a>
 
-	</section>
+            </article>
 
+            <!-- Imagem da Seção Home -->
+            <article id="home_imagem" class="flex home_content">
+                <img src="./assets/img/astronauta.svg" alt="Capacete de Astronauta Animado">
+            </article>
 
-		<section id="about" class="flex about_container">
+        </section>
 
-			<img src="./assets/img/user_01.svg" alt="Foto de Usuario" class="flex about_content">
+        <!-- Seção sobre -->
+        <section id="about" class="flex sobre_container">
 
-			<article id="about_text" class="flex about_content about_texto">
-				<h1>Sobre Mim?</h1>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nihil officia sed eveniet
-					laboriosam corporis, quos iste fugit totam ratione quas cum amet, exercitationem beatae iure
-					corrupti nulla officiis debitis?</p>
+            <!-- Imagem da Seção Sobre -->
+            <img src="./assets/img/user_01.svg" alt="Foto do Perfil do Github">
 
-				<div id="about_github" class="about_github">
-					<a href="https://github.com/VictorPestana" target="_blank" class="botao" rel="noopener">
-						GitHub
-					</a>
-					<p>200 Seguidores</p>
-					<p>20 Repositorios</p>
-				</div>
-			</article>
+            <!-- Texto da Seção Sobre -->
+            <article id="about_texto">
+                <h2>Sobre mim</h2>
+                <p>Jovem desenvolvedor FullStack Javascript de 19 anos, buscando sua primeira oportunidade na area. </p>
 
-		</section>
+                <!-- Detalhes do Github -->
+                <div id="about_github" class="flex sobre_github">
+                    <a href="https://github.com/VictorPestana" target="_blank" class="botao">
+                        Github
+                    </a>
+                    <p>200 Seguidores</p>
+                    <p>20 Repositórios</p>
+                </div>
 
-		<section id="contact" class="contact_container">
+            </article>
+        </section>
 
-			<h4>Contate-me</h4>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatum, cupiditate vero similique,
-				sequi sed necessitatibus ratione id, non praesentium eum minus. Perferendis facere, autem excepturi
-				molestiae dignissimos aut quasi?</p>
+        <!-- Seção de Contato -->
+        <section id="contact" class="contato_container">
 
-			<div id="icones_redes_sociais" class="flex contact_content img">
-				<a href="https://www.linkedin.com/in/victor-pestana-a1aa15269/" target="_blank" rel="noopener">
-					<img src="./assets/img/linkedin.svg" alt="LinkedIn">
-				</a>
-				<a href="https://github.com/VictorPestana" target="_blank" rel="noopener">
-					<img src="./assets/img/github.svg" alt="GitHub">
-				</a>
-				<a href="#">
-					<img src="./assets/img/instagram.svg" alt="Instagram">
-				</a>
-			</div>
+            <article id="redes_sociais" class="contato_content">
+                <h4>Contate-me</h4>
+                <p>Em caso de houver alguma duvida ou se tiver interesse de converar comigo, não deixe de me contactar. </p>
 
-			<form id="contatoForm" onsubmit="redirecionar(event)" class="form_content">
-				<label for="nome">Nome</label>
-				<input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+                <!-- Redes Sociais -->
+                <div id="icones_redes_sociais" class="social_container">
+                    <a href="" target="_blank">
+                        <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" class="social_icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/github.svg" alt="Logo do Github" class="social_icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/instagram.svg" alt="Logo do Instagram" class="social_icon">
+                    </a>
+                </div>
+            </article>
 
-				<label for="email">E-mail</label>
-				<input id="email" type="email" name="email" placeholder="Digite seu email" required>
+            <!-- Formulário de Contato -->
+            <form action="" method="POST">
 
-				<label for="assunto">Assunto</label>
-				<input id="assunto" type="text" name="assunto" placeholder="Digite seu assunto" required>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
+                <span id="txtNome"></span>
 
-				<label for="mensagem">Mensagem</label>
-				<textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                <label for="email">E-mail</label>
+                <input id="email" type="text" name="email" placeholder="Digite o endereço do seu e-mail">
+                <span id="txtEmail"></span>
 
-				<button type="submit">Enviar</button>
-			</form>
+                <label for="assunto">Assunto</label>
+                <input id="assunto" type="text" name="assunto" placeholder="Digite o assunto da mensagem">
+                <span id="txtAssunto"></span>
 
-			<script>
-				function redirecionar(event) {
-					event.preventDefault();
-					window.location.href = "sucesso.html";
-				}
-			</script>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite a sua mensagem"></textarea>
 
-		</section>
+                <button type="submit" class="botao">Enviar</button>
+            </form>
 
-	</main>
+        </section>
 
-	<!-- Footer -->
-	<footer class="flex footer_container">
-		Feito com 💜 por Victor - 2025
-	</footer>
+    </main>
+
+    <!-- Rodapé da Página -->
+    <footer>
+        Feito com 💚 por Victor Pestana - 2025
+    </footer>
 </body>
 
 </html>
